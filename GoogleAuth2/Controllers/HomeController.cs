@@ -21,7 +21,19 @@ namespace GoogleAuth2.Controllers
             //};
             //culture.DateTimeFormat = dateformat;
             //var currentDate = DateTime.Now.ToString("MM/dd/yyyy", culture);
+            //List<sdr> ss = new List<sdr>() {
+            //    new sdr
+            //    {
+            //        aa=5
+            //    },
+            //    new sdr
+            //    {
+            //        aa=4
+            //    },
+            //};
 
+            //var opop = ss ?? ss;
+            //var fsd = ss.FirstOrDefault(a=>a.aa==88)?.aa;
             return View();
         }
 
@@ -40,5 +52,9 @@ namespace GoogleAuth2.Controllers
             return View();
         }
         
+    }
+    class sdr {
+        public int aa { get; set; }
+        public int me { get; set; }
     }
 }
